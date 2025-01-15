@@ -3,406 +3,64 @@
   <Document>
     <name>Naamloze kaart</name>
     <description/>
-    <Style id="icon-1899-0288D1-nodesc-normal">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-0288D1-nodesc-highlight">
-      <IconStyle>
-        <color>ffd18802</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-0288D1-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-1267FF-5000-nodesc-normal">
+    <Style id="line-000000-1200-nodesc-normal">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>5</width>
+        <color>ff000000</color>
+        <width>1.2</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="line-1267FF-5000-nodesc-highlight">
+    <Style id="line-000000-1200-nodesc-highlight">
       <LineStyle>
-        <color>ffff6712</color>
-        <width>7.5</width>
+        <color>ff000000</color>
+        <width>1.8</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="line-1267FF-5000-nodesc">
+    <StyleMap id="line-000000-1200-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>Naamloze laag</name>
       <Placemark>
-        <name>Start</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0830582,51.5554898,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 2</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0831628,51.555293,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 3</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0839755,51.5551813,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 4</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0844981,51.5547599,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 5</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0870805,51.5561309,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 6</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0881378,51.5547905,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 7</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0900474,51.5551107,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 8</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0904444,51.555345,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 9</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0900817,51.5561852,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 10</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0896506,51.5570612,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Finish</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0904244,51.5576206,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 12</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0855923,51.5550356,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 13</name>
-        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.085316,51.5555793,0
-          </coordinates>
-        </Point>
-      </Placemark>
-    </Folder>
-    <Folder>
-      <name>Route van Start naar Finish</name>
-      <Placemark>
-        <name>Route van Start naar Finish</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <name>Route</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            5.08301,51.55546,0
-            5.08305,51.55544,0
-            5.08307,51.5554,0
-            5.08308,51.55536,0
-            5.08307,51.5553,0
-            5.08342,51.55525,0
-            5.08359,51.55522,0
-            5.08381,51.55519,0
-            5.08398,51.55518,0
-            5.08418,51.55501,0
-            5.08438,51.55485,0
-            5.08444,51.5548,0
-            5.0845,51.55476,0
-            5.08483,51.55484,0
-            5.08535,51.55497,0
-            5.08559,51.55503,0
-            5.08545,51.55533,0
-            5.08532,51.55558,0
-            5.08548,51.55565,0
-            5.08565,51.55571,0
-            5.08602,51.55583,0
-            5.08638,51.55594,0
-            5.08673,51.55604,0
-            5.08708,51.55614,0
-            5.08738,51.55587,0
-            5.08748,51.55579,0
-            5.08771,51.55558,0
-            5.08788,51.55543,0
-            5.08795,51.55525,0
-            5.08802,51.5551,0
-            5.08802,51.55508,0
-            5.08814,51.55479,0
-            5.08815,51.55478,0
-            5.0883,51.55482,0
-            5.08859,51.55487,0
-            5.08868,51.55488,0
-            5.08877,51.5549,0
-            5.08893,51.55495,0
-            5.08907,51.55497,0
-            5.08924,51.555,0
-            5.08937,51.55502,0
-            5.08959,51.55506,0
-            5.08982,51.55509,0
-            5.09004,51.55512,0
-            5.09002,51.55518,0
-            5.08998,51.55527,0
-            5.09034,51.55531,0
-            5.0904,51.55532,0
-            5.09046,51.55534,0
-            5.09046,51.55537,0
-            5.09038,51.55568,0
-            5.09035,51.55582,0
-            5.0902,51.55613,0
-            5.09014,51.55613,0
-            5.0901,51.55613,0
-            5.09009,51.55619,0
-            5.09008,51.55619,0
-            5.08984,51.55648,0
-            5.08974,51.55665,0
-            5.08967,51.55684,0
-            5.08966,51.55695,0
-            5.08965,51.55706,0
-            5.08971,51.55706,0
-            5.08983,51.55708,0
-            5.08992,51.55708,0
-            5.09013,51.55744,0
-            5.09027,51.55768,0
-            5.09033,51.55761,0
+            5.0863695,51.5547009,0
+            5.0865492,51.5542689,0
+            5.0871916,51.5544415,0
+            5.0877857,51.5546641,0
+            5.0884026,51.5548109,0
+            5.089572,51.5550244,0
+            5.090425,51.5551094,0
+            5.0904411,51.5554597,0
+            5.090327,51.5558406,0
+            5.0893131,51.5556671,0
+            5.0892058,51.5559573,0
+            5.088546,51.5568912,0
+            5.0877574,51.5565743,0
+            5.0870762,51.5561374,0
+            5.0863788,51.5559406,0
+            5.085322,51.5555804,0
+            5.0855956,51.5550267,0
+            5.0844556,51.5547375,0
+            5.0847024,51.5544373,0
+            5.0855714,51.5546374,0
           </coordinates>
         </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Start</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0830099,51.5554649,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 2</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0830688,51.5553028,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 3</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.083981,51.5551784,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 12</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.085588,51.5550336,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 13</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0853193,51.5555774,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 6</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0881408,51.554791,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 7</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0900463,51.5551208,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 9</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.090094,51.5561872,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Punt 10</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0896483,51.5570589,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>Finish</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            5.0903304,51.557606,0
-          </coordinates>
-        </Point>
       </Placemark>
     </Folder>
   </Document>
