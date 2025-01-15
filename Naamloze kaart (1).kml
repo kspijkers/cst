@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Naamloze kaart</name>
+    <description/>
+    <Style id="line-F9A825-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-F9A825-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff25a8f9</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-F9A825-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F9A825-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F9A825-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Naamloze laag</name>
+      <Placemark>
+        <name>Kènderstoet</name>
+        <styleUrl>#line-F9A825-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            5.0864956,51.5546831,0
+            5.0866404,51.5542895,0
+            5.0874075,51.5544996,0
+            5.0879976,51.5547364,0
+            5.0888935,51.5549099,0
+            5.0898966,51.55507,0
+            5.0903955,51.5551133,0
+            5.0904492,51.5553501,0
+            5.0903258,51.5558271,0
+            5.0893065,51.5556703,0
+            5.08921,51.5559472,0
+            5.0885502,51.5568911,0
+            5.0878099,51.5565775,0
+            5.0870857,51.5561473,0
+            5.0863883,51.5559305,0
+            5.08531,51.5555769,0
+            5.0855944,51.5550299,0
+            5.0845107,51.5547498,0
+            5.0846341,51.5545763,0
+            5.084677,51.5544729,0
+            5.0854388,51.5546297,0
+            5.0860503,51.5547198,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
