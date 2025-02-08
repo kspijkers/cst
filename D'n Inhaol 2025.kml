@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[D'n Inhaol 2025]]></name>
+    <description/>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Naamloze laag</name>
+      <Placemark>
+        <name>Lijn 1</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            5.0838108,51.5602554,0
+            5.083786,51.5601453,0
+            5.0831899,51.560197,0
+            5.0831282,51.5600303,0
+            5.082687,51.5592615,0
+            5.0824771,51.5588788,0
+            5.0822672,51.5584494,0
+            5.0816847,51.5573461,0
+            5.0816109,51.5573228,0
+            5.0817055,51.5569392,0
+            5.0817608,51.5567425,0
+            5.0818376,51.556559,0
+            5.0822721,51.5561321,0
+            5.0827307,51.5557385,0
+            5.0830965,51.5554563,0
+            5.0831318,51.555405,0
+            5.0831352,51.5553701,0
+            5.083128,51.5552997,0
+            5.0832259,51.5552811,0
+            5.0834495,51.5552415,0
+            5.083586,51.5552182,0
+            5.0836997,51.5552052,0
+            5.0838242,51.5551914,0
+            5.0839488,51.55518,0
+            5.0839779,51.5551798,0
+            5.0842425,51.5549647,0
+            5.0843714,51.5548571,0
+            5.0845033,51.5547573,0
+            5.0845929,51.5546381,0
+            5.0846329,51.5545833,0
+            5.0846506,51.5545492,0
+            5.0846744,51.5544895,0
+            5.0846955,51.5543939,0
+            5.0846983,51.5543367,0
+            5.0846972,51.5542881,0
+            5.0851763,51.5542457,0
+            5.0854175,51.5542259,0
+            5.0856604,51.5542129,0
+            5.0861053,51.5544764,0
+            5.0862166,51.554498,0
+            5.0862857,51.5545055,0
+            5.0863829,51.5545247,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
